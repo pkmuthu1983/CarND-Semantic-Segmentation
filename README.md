@@ -4,6 +4,13 @@
 The model is implemented in main.py and the following command is used to run the project:
 python main.py
 
+[//]: # (Image References)
+[image1]: ./sample1.png
+[image2]: ./sample2.png
+[image3]: ./sample3.png
+[image4]: ./sample4.png
+[image5]: ./sample5.png
+
 ### Discussion:
 1. Layers module:
 The model utilizes the layers 3, 4, and 7 from VGG and decodes/upsamples to match input dimensions.
@@ -23,3 +30,9 @@ produced similar results. However 2/50, did not provide good training loss.
 The model passed all the unit tests. The training loss decreased on an average with each epoch.
 The images below shows sample images from the run with batch size of 5 and 50 epochs.
 As we can see, the model labels the pixels on the road correctly.
+
+![Labeled image 1][image1]
+![Labeled image 2][image2]
+![Labeled image 3][image3]
+![Labeled image 4][image4]
+![Labeled image 5][image5]
