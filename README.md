@@ -29,10 +29,8 @@ produced similar results. However 2/50, did not provide good training loss.
 4) Results:
 The model passed all the unit tests. The training loss decreased on an average with each epoch.
 The images below shows sample images from the run with batch size of 5 and 50 epochs.
-As we can see, the model labels the pixels on the road correctly.
+As we can see, the model labels most of the pixels on the road correctly.
 
 ![Labeled image 1][image1]
-![Labeled image 2][image2]
 ![Labeled image 3][image3]
-![Labeled image 4][image4]
 ![Labeled image 5][image5]
